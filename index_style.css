@@ -1,0 +1,432 @@
+@font-face {
+    font-family: alegSans;
+    src: url(fonts/AlegreyaSans-Regular.ttf);
+}
+@font-face {
+    font-family: aleg;
+    src: url(fonts/Alegreya-Regular.otf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar{
+    background-color: #ffffff;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #453a29;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+iframe{
+    width: 35em;
+    height: 30em;
+    border: 0px;
+}
+
+.normalText{
+    font-family: alegSans;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #686868;
+}
+.normalTitle{
+    font-family: aleg;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #303030;
+    font-weight: 100;
+}
+
+.horizontalLine{
+    height: 1.5px;
+    margin: 12px 6px;
+    background-color: #68686834;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === */
+/* === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === */
+/* === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === Section #1 === */
+
+#home{
+    width: 100%;
+    height: 71vh;
+    background-image: url(images/bread.jpg), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-top: 29vh;
+}
+
+#home #caption{
+    width: 46%;
+    height: 55vh;
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+    font-family: alegSans;
+    font-size: 24px;
+    color: white;
+}
+
+#home h1{
+    font-family: aleg;
+    font-weight: 100;
+    font-size: 76px;
+    margin-bottom: 15px;
+}
+
+#home #welcome{
+    font-size: 22px;
+}
+
+#home p{
+    line-height: 2;
+}
+
+#home a{
+    display: inline-block;
+    padding: 18px 30px;
+    margin: 18px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: alegSans; 
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+#home #btn1{
+    background-color: #8F7854;
+    color: white;
+    border: solid 2px #8F7854;
+}
+
+#home #btn2{
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+}
+
+#home #btn2:hover , #home #btn1:hover {
+    background-color: white;
+    color: black;
+    border: solid 2px white;
+}
+
+#oval{
+    width: 28px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+
+
+
+/* === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === */
+/* === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === */
+/* === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === Section #2 === */
+
+#identity{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    background-color: white;
+    text-align: center;
+   
+}
+
+#identity #left, #identity #right{
+    width: 38%;
+    height: 80%;
+    background-color: transparant;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#identity #left{
+    padding: 4em 2em 0em 0em;
+}
+
+#identity #right{
+    text-align: left;
+    padding: 7.5em 0em 0em 2em;
+    
+}
+
+#identity img{
+    width: 100%;
+}
+
+#identity .card img{
+    width: 25px;
+    border: solid 1px #D9D9D9 ;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 8px 0px;
+    background-color: transparant;
+}
+
+#identity .card p{
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 0px 0px 8px;
+}
+
+#identity #middleText{
+    padding: 20px 0px;
+}
+
+
+
+
+/* === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === */
+/* === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === */
+/* === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === Section #3 === */
+
+#location{
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #F8F8F8;
+    text-align: center;
+   
+}
+
+#location #right, #location #left{
+    width: 38%;
+    height: 80%;
+    background-color: transparant;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#location #right{
+    padding: 4em 0em 0em 2em;
+}
+
+#location #left{
+    text-align: left;
+    padding: 10em 2em 0em 0em;
+}
+
+#location img{
+    width: 100%;
+}
+
+
+
+
+
+/* === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === */
+/* === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === */
+/* === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === Section #4 === */
+
+
+#baking {
+    width: 100% - 30vh;
+    padding: 5em 7em;   
+    text-align: center;
+    background-color: white;
+}
+
+#baking h2{
+    font-size: 30px;
+    margin-bottom: 2vh;
+}
+
+#baking h3{
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+    margin: 15px;
+    padding: 0px;
+}
+
+#baking #cardsDiv{
+    width: 100%;
+    margin-top: 8vh;
+}
+
+#baking .card{
+    width: 33.33%;
+    background-color: transparent;
+    float: left;
+}
+
+#baking .card img{
+    width: 88%;
+}
+
+#baking .card p{
+    padding: 0px 30px;
+}
+
+
+
+/* === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === */
+/* === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === */
+/* === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === Section #5 === */
+
+#contact {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+#contact #content{
+    padding: 6em 9em 0vh 9em;
+    
+}
+
+#contact #right, #contact #left{
+    width: 50%;
+    background-color: transparent;
+    float: left;
+}
+
+
+#contact #right{
+    overflow: auto;
+}
+
+#contact #left{
+    text-align: left;
+}
+
+#contact p{
+    margin-right: 4em;
+}
+
+#contact .card img{
+    width: 28px;
+    border: solid 1px #8E7754 ;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 8px 0px;
+    background-color: #8E7754;
+}
+
+#contact .card p{
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 0px 0px 8px;
+}
+
+#contact #middleText{
+    padding: 20px 0px;
+}
+
+
+
+/* === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === */
+/* === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === */
+/* === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === Section #6 === */
+
+
+#about{
+    width: 100%;
+}
+
+#about h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+#about #topSection{
+    height: 60%;
+    background-color: #403D38;
+}
+
+#about #topSection #content{
+    padding: 4% 10%;
+    height: 100%;
+}
+
+#about .card{
+    float: left;
+    width: 21%;
+    padding: 0 2%;
+}
+
+#about .card img{
+    float: left;
+    width: 20px;
+}
+
+
+
+#about .card p{
+    color: #969696;
+    font-size: 16px;
+    font-family: alegSans;
+    margin-top: 2px;
+    float: left;
+}
+
+#about #lastCard{
+    background-image: url(images/map.png);
+    background-repeat: no-repeat;
+    background-position: center 1.5em;
+    background-size: 90%;
+}
+
+#about #lastCard img{
+    width: 30px;
+}
+
+
+#about #bottomSection{
+    height: 45%;
+    text-align: center;
+    background-color: #353330;
+}
+
+#about  #content{
+    padding: 3em;
+}
+
+#about #bottomSection p{
+    color: #777777;
+    font-size: 15px;
+    font-family: alegSans;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+
+.socialMedia{
+    width: 45px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 3px;
+    vertical-align: middle;
+}
+
+.socialMedia:hover{
+    background-color: white;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 3px;
+}

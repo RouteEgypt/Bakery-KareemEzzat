@@ -1,0 +1,51 @@
+nav{
+    width: 80%;
+    height: 4em;
+    background-color: white;
+    padding: 0px 10%;
+    position: fixed;
+    box-shadow: 0px 2px rgba(0,0,0,0.02);
+}
+
+#logoDiv{
+    width: 30%;
+}
+
+#logoDiv img{
+    height: 3em;
+    padding-top: 10px;   
+}
+
+#linksDiv{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    text-align: end;
+    float: right;
+    overflow: hidden;
+}
+
+#linksDiv a{
+    width: 15%;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0px; 
+    font-family: aleg;
+    font-size: large;
+    text-align: center;  
+}
+
+#linksDiv a:hover{
+    background-color: #AE9768;
+    color: white;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
